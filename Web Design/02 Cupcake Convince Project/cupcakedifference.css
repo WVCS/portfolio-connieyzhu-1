@@ -1,0 +1,56 @@
+body{
+  margin: 0px;
+  background-image: url(https://img.freepik.com/free-vector/minimal-triangle-pattern-design-pastel-colors_1017-14885.jpg?size=338&ext=jpg);
+}
+.nul{
+  list-style-type: none;
+  width: 100%;
+  overflow: hidden;
+  margin: 0;
+  padding: 0;
+  background-color: #FCDDDE;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+.nli{
+display: inline;
+float: right;
+}
+.na {
+  display: block;
+  text-decoration: none;
+  padding: 20px 60px;
+  font-size: 25px;
+  color: white;
+    text-align: center;
+    font-size: 25px;
+    text-shadow: rgb(0, 0, 0) 2px 2px 2px;
+}
+li a:hover{
+  background-color: #FCDDDE;
+  color: #F27BBC;
+}
+.logo{
+  position: absolute;
+  top: 8px;
+  left: 20px
+}
+tr,td{
+  font-size: 35px;
+}
+tr,th{
+  font-size: 50px;
+}
+table{
+ border-collapse: collapse;
+ margin: 5px;
+}
+td{
+  border: 2px solid black;
+}
+p{
+  font-size: 50px;
+  margin: 50px;
+}
+

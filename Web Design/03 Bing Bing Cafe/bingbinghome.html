@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="CSS/bingbinghome.css">
+  <title>Bing Bing</title>
+</head>
+<body>
+<ul id="nav"> 
+  <br>
+  <br>
+  <br>
+  <li class="bar"><a class="barstyle" href="bingbinghome.html">HOME</a></li>
+  <li class="bar"><a class="barstyle" href="bingbingmenu.html">MENU</a></li>
+  <li class="bar"><a class="barstyle" href="bingbingabout.html">ABOUT</a></li>
+  <li class="bar"><a class="barstyle" href="bingbinglocations.html">LOCATIONS</a></li>
+  <li class="bar"><a class="barstyle" href="bingbingcontactus.html">CONTACT US</a></li>
+</ul>
+<div class="logo"><a class="barstyle" href="bingbinghome.html"><img alt="Bing Bing Cafe"src="Images/Bing Bing Logo.png" width=260px></a></div>   <div class="w3-content w3-section" style="width:30%">
+  <img class="mySlides w3-animate-top" 
+src="https://chinatown.co.uk/wp-content/uploads/2017/06/shutterstock_653551210.jpg" width= 100% height= 800px>
+  <img class="mySlides w3-animate-bottom" src="https://asiatrend.org/wp-content/uploads/2018/03/bubble-tea-cosmopolitan.jpg" width=100% height=800px>
+  <img class="mySlides w3-animate-top" 
+       src="https://media.timeout.com/images/105277334/image.jpg" width=100% height=800px>
+</div>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2500);    
+}
+</script>
+  
+  <div class="container">
+    <div class="item1"><h1>BOBA</h1>
+      <p>
+        Bubble tea is a Taiwanese tea-based drink invented in Tainan and Taichung in the 1980s. Recipes contain tea of some kind, flavors of milk, and sugar. Toppings, known as "pearls", such as chewy tapioca balls, popping boba, fruit jelly, grass jelly, agar jelly, alovera jelly, sago and puddings are often added.
+      </p>
+    </div>
+    <div class="item2">
+      <center><img src="https://media.blogto.com/articles/20171019-2048-DearFro8.jpg?w=2048&cmd=resize_then_crop&height=1365&quality=70" width=600px></center></div>
+    <div class="item3"><h2>TAIYAKI</h2>
+      <p>
+        Taiyaki is a Japanese fish-shaped cake. It imitates the shape of the tai, which it is named after. The most common filling is red bean paste that is made from sweetened azuki beans. Other common fillings may be custard, chocolate, cheese, or sweet potato.
+      </p>
+    </div>
+    <div class="item4">
+       <center><img src="https://www.thespruceeats.com/thmb/oZXvIih4aOUzwNOrPbosHl9KfK8=/960x0/filters:no_upscale():max_bytes(150000):strip_icc()/boba-5a70e14e6bf0690037982c1a.jpg" width= 600px></center>
+    </div>
+    <div class="item5"><h3>PATBINGSU</h3>
+      <p>
+        Patbingsu is a popular Korean shaved ice dessert with sweet toppings that may include chopped fruit, condensed milk, fruit syrup, and red beans. Varieties with ingredients other than red beans are called bingsu. The food originally began as ice shavings with red beans.
+      </p>
+    </div>
+    <div class="item6">
+      <center><img src="https://media.sandiegoreader.com/img/photos/2019/05/10/fugu_fish_cone_web.jpg" width=600px></center>
+    </div>
+</div> 
+
+</body>
+</html>

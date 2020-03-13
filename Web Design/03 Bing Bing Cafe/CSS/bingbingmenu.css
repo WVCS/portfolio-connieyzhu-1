@@ -1,0 +1,40 @@
+body {
+  margin: 0px;
+}
+#nav {
+display: inline-block;
+width:100%;
+top: 0;
+margin:0;
+list-style:none;
+overflow: hidden;
+background-color: #B7E4F4;
+height: 130px;
+text-align: center;
+position: fixed;
+z-index: 2;
+}
+#nav li {
+display: inline-block;
+}
+#nav a {
+display:block;
+text-align:center;
+width:160px;
+text-decoration:none; 
+color: #6F99AA;
+}
+.barstyle:hover{
+  color: white;
+}
+.logo{
+  position: fixed;
+  top: 20px;
+  left: 350px;
+  z-index: 3;
+}
+.menu{
+	position: absolute;
+	top: 200px;
+	left: 450px;
+}
