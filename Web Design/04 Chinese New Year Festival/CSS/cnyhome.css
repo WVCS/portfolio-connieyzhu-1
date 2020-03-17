@@ -102,7 +102,7 @@ body{
 }
 .info{
   position:absolute;
-  top: 860px;
+  top: 800px;
   width: 100%;
   text-align: center;
   
@@ -133,7 +133,7 @@ body{ font-family: "Francois One"; background-image: url(http://subtlepatterns.s
   overflow: hidden;
   box-shadow: 0 0 5px #eee;
   position: absolute;
-  top: 1700px;
+  top: 1500px;
 }
 .image-grid{
   max-width: 100%;
