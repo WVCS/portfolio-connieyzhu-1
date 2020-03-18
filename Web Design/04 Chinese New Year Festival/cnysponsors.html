@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" type="text/css" href="CSS/cnysponsors.css">
+  <title>Sponsors</title>
+</head>
+<body>
+  <div class="nav">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+      <img src="Chinese New Year Logo.png" width=200px>
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div class="nav-links">
+    <a href="cnyhome.html" target="_blank">HOME</a>
+    <a href="cnyabout.html" target="_blank">ABOUT</a>
+    <a href="cnyvendors.html" target="_blank">VENDORS</a>
+    <a href="cnysponsors.html" target="_blank">SPONSORS</a>
+    <a href="cnycontactus.html" target="_blank">CONTACT US</a>
+  </div>
+</div>
+  <div class="heading">
+    <img class="ox"src="Ox Sponsors.jpg" alt="Ox" width=500px height=auto>
+   </div>
+  <center><div class="w3-content w3-section" style="width:30%">
+  <img class="mySlides w3-animate-top" 
+src="https://i.pinimg.com/originals/0d/9b/46/0d9b463f1438ca0c415538774184a098.png" width=auto height=300vh>
+  <img class="mySlides w3-animate-bottom" src="https://1000logos.net/wp-content/uploads/2016/11/Coca-Cola-Logo.png" width=auto height=300vh>
+  <img class="mySlides w3-animate-top" 
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/0f/Pepsi_logo_2014.svg/1200px-Pepsi_logo_2014.svg.png" width=auto height=300vh>
+  <img class="mySlides w3-animate-top" 
+src="https://lh3.googleusercontent.com/proxy/IhNgXug6GQkdnQc48DopDff8Mf4PB13SeFPuqHJZ3cm6EJqDM9xhc7J9uLkedn-e39jXUnVXttcZ8TzdheFFTSryffLuhp40WbMhZpX1VvqOqmZs8999" width=auto height=300vh>
+  <img class="mySlides w3-animate-top" 
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e5/NASA_logo.svg/1224px-NASA_logo.svg.png" width=auto height=300vh>
+  <img class="mySlides w3-animate-top" 
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1b/Apple_logo_grey.svg/1200px-Apple_logo_grey.svg.png" width=auto height=300vh>
+  <img class="mySlides w3-animate-top" 
+src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/McDonald%27s_Golden_Arches.svg/1170px-McDonald%27s_Golden_Arches.svg.png" width=auto height=300vh>
+  <img class="mySlides w3-animate-top" 
+src="https://1000logos.net/wp-content/uploads/2018/02/Toyota-logo.png" width=auto height=300vh>
+  <img class="mySlides w3-animate-top" 
+src="https://1000logos.net/wp-content/uploads/2017/06/Taco-Bell-Logo.png" width=auto height=300vh>
+  <img class="mySlides w3-animate-top" 
+src="https://lh3.googleusercontent.com/proxy/FkmXGfM0zVYBMLoRjp-QLzPxrVx73EquUrzDAx6n9JDvtjSpG81TWxFEYF9btL3coJxQzvOg25y0ykr8r5AZGshYT93nCH7atJBWHU09iVgF_dCpfEIwshaf1Bwtw3lF" width=auto height=300vh>
+  <img class="mySlides w3-animate-top" 
+src="https://www.mmaglobal.com/files/logos/kaiser-permanente-1.png" width=auto height=300vh>
+  <img class="mySlides w3-animate-top" 
+src="https://www.pcworld.com/couponcodes/static/shop/26688/logo/_0015_Microsoft-coupon-codes.png" width=auto height=300vh>
+  </div></center>
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";  
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}    
+  x[myIndex-1].style.display = "block";  
+  setTimeout(carousel, 2500);    
+}
+</script>
+  <center><h1>A big thanks to our sponsors!</h1> </center>
+</body>
+</html>
