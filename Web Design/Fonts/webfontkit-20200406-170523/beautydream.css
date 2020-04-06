@@ -4,8 +4,8 @@
 
 @font-face {
     font-family: 'beauty_dreamregular';
-    src: font-url('beauty_dream-webfont.woff2 format')('woff2'),
-         font-url{'beauty_dream-webfont.woff format')('woff');
+    src: url(/beauty_dream-webfont.woff2) format('woff2'),
+         url{/beauty_dream-webfont.woff) format('woff');
     font-weight: normal;
     font-style: normal;
 
