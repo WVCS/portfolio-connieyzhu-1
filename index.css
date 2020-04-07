@@ -1,0 +1,7 @@
+@font-face\{
+ font-family: beautydream;
+ src: url(/Web Design/Fonts/Beauty Dream 200.ttf)
+}
+body{
+ font-family:beautydream;
+}
