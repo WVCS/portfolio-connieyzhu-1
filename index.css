@@ -1,7 +1,6 @@
 @font-face\{
  font-family: beautydream;
- src: url(/Web Design/Fonts/Beauty Dream 400.ttf) format('truetype'),
-      url(/Web Design/Fonts/beauty_dream-webfont.woff) format('woff'),
+ src: url(/Web Design/Fonts/beauty_dream-webfont.woff) format('woff'),
       url(/Web Design/Fonts/beauty_dream-webfont.woff2) format('woff2');
 }
 body{
