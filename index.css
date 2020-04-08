@@ -59,6 +59,13 @@ body {
 .nav > #nav-check {
   display: none;
 }
+.header{
+  max-width: 100%;
+  text-align: center;
+}
+.about{
+  float: left;
+}
 
 @media (max-width: 768px) {
   .nav > .nav-btn {
