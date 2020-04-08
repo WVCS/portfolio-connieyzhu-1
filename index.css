@@ -67,6 +67,12 @@ body {
   margin-right: 50px;
   padding: 10px;
 }
+h1{
+  font-family: 'Meddon', cursive;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+}
 
 @media (max-width: 768px) {
   .nav > .nav-btn {
