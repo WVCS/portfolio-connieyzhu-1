@@ -59,6 +59,9 @@ body {
 .nav > #nav-check {
   display: none;
 }
+.welcome{
+  width: 100%;
+}
 
 @media (max-width: 768px) {
   .nav > .nav-btn {
