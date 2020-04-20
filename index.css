@@ -64,6 +64,16 @@ body {
   width: 100%;
   height: auto;
 }
+h1{
+  font-family: 'Meddon', cursive;
+  color: #BC8C67;
+  font-size: 2.5vw;
+}
+p{
+  font-family: 'Poppins', sans-serif;
+  line-height: 250%;
+  font-size: 1.2vw;
+}
 
 @media (max-width: 768px) {
   .nav > .nav-btn {
