@@ -64,6 +64,11 @@ body {
   width: 100%;
   height: auto;
 }
+.palmferris{
+  max-width: 100%;
+  width: 400px;
+  height: auto;
+}
 h1{
   font-family: 'Meddon', cursive;
   color: #BC8C67;
