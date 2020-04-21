@@ -128,4 +128,7 @@ p{
     height: calc(100vh - 50px);
     overflow-y: auto;
   }
+  .palmferris{
+    width: 100%;
+  }
 }
