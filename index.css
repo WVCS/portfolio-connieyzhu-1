@@ -64,6 +64,9 @@ body {
   width: 100%;
   height: auto;
 }
+.intro{
+  width: 100%
+}
 .palmferris{
   max-width: 100%;
   width: 500px;
