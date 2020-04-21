@@ -82,6 +82,7 @@ p{
   font-family: 'Poppins', sans-serif;
   line-height: 250%;
   font-size: 1.2vw;
+  padding-right: 10vw;
 }
 
 @media (max-width: 768px) {
