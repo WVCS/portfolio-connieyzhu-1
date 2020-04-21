@@ -133,8 +133,10 @@ p{
   }
   h1{
     font-size: 3vw;
+    padding-left: 10vw;
   }
   p{
     font-size: 2vw;
+    padding-left: 10vw;
   }
 }
