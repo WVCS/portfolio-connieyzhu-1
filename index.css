@@ -131,4 +131,10 @@ p{
   .palmferris{
     width: 100%;
   }
+  h1{
+    font-size: 2vw;
+  }
+  p{
+    font-size: 1vw;
+  }
 }
