@@ -126,7 +126,7 @@ textarea {
   border-radius: 1.6875rem;
   transition: all 0.5s ease;
   margin-right: 0.25rem;
-  margin-bottom: 0.25rem;
+  margin-bottom: 5px;
 }
 
 .rounded-social-buttons .social-button:hover, .rounded-social-buttons .social-button:focus {
