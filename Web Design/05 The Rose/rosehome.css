@@ -72,6 +72,7 @@ ul.slides {
     padding: 0;
     overflow: hidden;
     list-style: none;
+    margin-top: 30px;
 }
 
 .slides * {
