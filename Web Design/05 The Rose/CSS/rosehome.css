@@ -59,6 +59,9 @@ body {
 .nav > #nav-check {
   display: none;
 }
+.logo{
+  width: 5vw;
+}
 .carousel {
     margin-left: 15%;
     margin-right: 15%;
