@@ -9,7 +9,7 @@ body {
 .nav {
   height: 80px;
   width: 100%;
-  background-color: #FFFDF4;
+  background-color: white;
   position: fixed;
   top: 0;
   opacity: 0.8;
@@ -60,7 +60,7 @@ body {
   display: none;
 }
 .logo{
-  width: 5vw;
+  width: 8vw;
 }
 .carousel {
     margin-left: 15%;
