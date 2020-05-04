@@ -60,7 +60,10 @@ body {
   display: none;
 }
 .logo{
-  width: 70px;
+  max-width: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 .carousel {
     margin-left: 15%;
