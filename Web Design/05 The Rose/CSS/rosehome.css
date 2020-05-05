@@ -9,7 +9,7 @@ body {
 .nav {
   height: 80px;
   width: 100%;
-  background-color: white;
+  background-color: #FFFDF4;
   position: fixed;
   top: 0;
   opacity: 0.8;
@@ -28,7 +28,7 @@ body {
 }
 .nav > .nav-header > .nav-title > a{
   text-decoration: none;
-  color: #BC8C67;
+  color: #8B2700;
 }
 .nav > .nav-header > .nav-title > a:hover{
   color: #916C4F;
@@ -49,11 +49,11 @@ body {
   display: inline-block;
   padding: 25px 30px 13px 10px;
   text-decoration: none;
-  color: #BC8C67;
+  color: #8B2700;
 }
 
 .nav > .nav-links > a:hover {
-  text-decoration: underline
+  text-decoration: underline;
 }
 
 .nav > #nav-check {
@@ -197,9 +197,7 @@ input#img-6:checked ~ .carousel-dots label#img-dot-6 {
 
 
 input:checked + .slide-container .nav label { display: block; }
-textarea {
-    resize: none;
-}
+
 .intro{
   padding: 30px;
   margin: 40px;
@@ -211,6 +209,10 @@ textarea {
 p{
   font-size: 2vw;
 }
+textarea {
+    resize: none;
+}
+
 .text {
   color: white;
   font-size: 20px;
@@ -263,9 +265,9 @@ p{
 }
 
 .rounded-social-buttons .social-button.facebook {
-  color: #BC8C67;
+  color: #8B2700;
   background: #fefefe;
-  border-color: #BC8C67;
+  border-color: #8B2700;
 }
 
 .rounded-social-buttons .social-button.facebook:hover, .rounded-social-buttons .social-button.facebook:focus {
@@ -274,9 +276,9 @@ p{
 }
 
 .rounded-social-buttons .social-button.twitter {
-  color: #BC8C67;
+  color: #8B2700;
   background: #fefefe;
-  border-color: #BC8C67;
+  border-color: #8B2700;
 }
 
 .rounded-social-buttons .social-button.twitter:hover, .rounded-social-buttons .social-button.twitter:focus {
@@ -285,9 +287,9 @@ p{
 }
 
 .rounded-social-buttons .social-button.youtube {
-  color: #BC8C67;
+  color: #8B2700;
   background: #fefefe;
-  border-color: #BC8C67;
+  border-color: #8B2700;
 }
 
 .rounded-social-buttons .social-button.youtube:hover, .rounded-social-buttons .social-button.youtube:focus {
@@ -296,16 +298,15 @@ p{
 }
 
 .rounded-social-buttons .social-button.instagram {
-  color: #BC8C67;
+  color: #8B2700;
   background: #fefefe;
-  border-color: #BC8C67;
+  border-color: #8B2700;
 }
 
 .rounded-social-buttons .social-button.instagram:hover, .rounded-social-buttons .social-button.instagram:focus {
   background: #dd2a7b;
   color: white;
 }
-
 @media (max-width: 768px) {
   .nav > .nav-btn {
     display: inline-block;
