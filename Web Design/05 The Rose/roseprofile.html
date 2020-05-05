@@ -1,217 +1,140 @@
-* {
-  box-sizing: border-box;
-}
 
-body {
-  margin: 0px;
-}
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+ <link href="https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Montserrat&family=Raleway:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="CSS/roseprofile.css">
+  <title>Profile</title>
+</head>
+<body>
+  <!--Start Nav Bar -->
+<div class="nav">
+  <input type="checkbox" id="nav-check">
+  <div class="nav-header">
+    <div class="nav-title">
+      <a href="../rosehome.html" target="_blank">THE ROSE</a>
+    </div>
+  </div>
+  <div class="nav-btn">
+    <label for="nav-check">
+      <span></span>
+      <span></span>
+      <span></span>
+    </label>
+  </div>
+  
+  <div class="nav-links">
+    <a href="roseprofile.html" target="_blank">PROFILE</a>
+    <a href="rosediscography.html" target="_blank">DISCOGRAPHY</a>
+    <a href="rosegallery.html" target="_blank">GALLERY</a>
+  </div>
+</div>
+  <!--End Nav Bar -->
+<!--Start Header -->
+  <div class="jumbotron">
+    <div class="container">
+      <h1>PROFILE</h1>
+    </div>
+  </div>
+  <!--End Header-->
+  <!--Start Profile-->
+<ul class="tabs">
+    
+    <li class="tab">
+        <input type="radio" name="tabs" checked="checked" id="tab1" />
+        <label for="tab1">Woosung</label>
+        <div id="tab-content1" class="content">
+          <h1>WOOSUNG</h1>
+          <hr/>
+          <h3>Leader, Lead Vocalist, (Electric) Guitarist</h3>
+          <br/>
+          <img src="https://kprofiles.com/wp-content/uploads/2017/08/1-Woosung-533x800.jpg" width="150" style="float: left; margin-right: 10px;"/>
+          <ul>
+            <li>-Stage Name: Woosung or Sammy</li>
+            <li>-Birth Name: Kim Woosung</li>
+            <li>-English Name: Sammy</li>
+            <li>-Birthday: February 25, 1993</li>
+            <li>-Woosung represents the WHITE rose.</li>
+            <li>-He is from Los Angeles, California.</li>
+            <li>-He was the last member to join The Rose.</li>
+            <li>-Woosung made his solo debut on July 25th, 2019 with his mini album ‘Wolf’.</li>
+          </ul>
+        </div>
+    </li>
+    
+    <li class="tab">
+      <input type="radio" name="tabs" id="tab2" />
+      <label for="tab2">Dojoon</label>   
+      <div id="tab-content2" class="content">
+          <h1>DOJOON</h1>
+          <hr/>
+          <h3>Main Vocalist, Keyboardist, (Acoustic) Guitarist</h3>
+          <br/>
+        <img src="https://kprofiles.com/wp-content/uploads/2017/08/2-Dojoon.jpg" width="110" style="float: left; margin-right: 10px;"/>
+          <ul>
+            <li>-Stage Name: Dojoon</li>
+            <li>-Birth Name: Park Dojoon</li>
+            <li>-English Name: Leo</li>
+            <li>-Birthday: April 20, 1993</li>
+            <li>-Dojoon represents the RED rose.</li>
+            <li>-He was born in Busan, South Korea.</li>
+            <li>-He was the main vocalist in a band called Windfall before The Rose along with Hajoon and Jaehyeong</li>
+            <li>-Dojoon lived in New Zealand for 5 years</li>
+          </ul>   
+       </div>
+    </li>
 
-.nav {
-  height: 80px;
-  width: 100%;
-  background-color: #FFFDF4;
-  position: fixed;
-  top: 0;
-  opacity: 0.8;
-  z-index: 1;
-}
+     <li class="tab">
+      <input type="radio" name="tabs" id="tab3" />
+      <label for="tab3">Hajoon</label>   
+      <div id="tab-content3" class="content">
+          <h1>HAJOON</h1>
+          <hr/>
+          <h3>Drummer, Sub Vocalist, Rapper</h3>
+          <br/>
+        <img src="https://kprofiles.com/wp-content/uploads/2017/08/3-Hajoon.jpg" width="150" style="float: left; margin-right: 10px;"/>
+          <ul>
+            <li>-Stage Name: Hajoon</li>
+            <li>-Birth Name:Lee Hajoon</li>
+            <li>-English Name: Dylan</li>
+            <li>-Birthday: July 29, 1994</li>
+            <li>-Hajoon represents the BLUE rose.</li>
+            <li>He was born in Gwangju, South Korea.</li>
+            <li>-He was the drummer in a band called Windfall before The Rose along with Dojoon and Jaehyeong</li>
+            <li>-He played the drums since he was young and he was drum major since college.</li>
+          </ul>
+      </div>
+    </li>
 
-.nav > .nav-header {
-  display: inline;
-}
+    <li class="tab">
+      <input type="radio" name="tabs" id="tab4" />
+      <label for="tab4">Jaehyeong</label>   
+      <div id="tab-content4" class="content">
+          <h1>JAEHYEONG</h1>
+          <hr/>
+          <h3>Maknae, Bassist, Sub Vocalist, Visual</h3>
+          <br/>
+        <img src="https://kprofiles.com/wp-content/uploads/2017/08/4-Jaehyeong-532x800.jpg" width="150" style="float: left; margin-right: 10px;"/>
+          <ul>
+            <li>-Stage Name: Jaehyeong</li>
+            <li>-Birth Name: Lee Jaehyeong</li>
+            <li>-English Name: Jeff</li>
+            <li>-Birthday: November 3, 1994</li>
+            <li>Jaehyeong represents the PINK rose.</li>
+            <li>-He was born in Pohang and grew up in Samcheok, Gangwon-do, South Korea.</li>
+            <li>-He was the bassist in a band called Windfall before The Rose along with Hajoon and Dojoon</li>
+            <li>-Before debut, Jaehyeong had surgery because of lungs problems.</li>
+          </ul>       
+      </div>
+    </li>
+    
+  </ul>
+  
 
-.nav > .nav-header > .nav-title {
-  display: inline-block;
-  font-size: 22px;
-  padding: 24px;
-  font-family: 'Montserrat', sans-serif;
-}
-.nav > .nav-header > .nav-title > a{
-  text-decoration: none;
-  color: #8B2700;
-}
-.nav > .nav-header > .nav-title > a:hover{
-  color: #916C4F;
-}
 
-.nav > .nav-btn {
-  display: none;
-}
-
-.nav > .nav-links {
-  display: inline;
-  float: right;
-  font-size: 18px;
-  font-family: 'Raleway', sans-serif;
-}
-
-.nav > .nav-links > a {
-  display: inline-block;
-  padding: 25px 30px 13px 10px;
-  text-decoration: none;
-  color: #8B2700;
-}
-
-.nav > .nav-links > a:hover {
-  text-decoration: underline;
-}
-
-.nav > #nav-check {
-  display: none;
-}
-.row {
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    -ms-flex-wrap: wrap; /* IE10 */
-    flex-wrap: wrap;
-    padding: 0 4px;
-}
-
-/* Create four equal columns that sits next to each other */
-.column {
-    -ms-flex: 25%; /* IE10 */
-    flex: 25%;
-    max-width: 25%;
-    padding: 0 4px;
-}
-
-.column img {
-    margin-top: 8px;
-    vertical-align: middle;
-}
-.jumbotron { 
-  margin-top: 10vh;
-  padding: 30px; /* fills out the jumbotron */
-}
-
-.container {
-  width: 100%; /* specify a width */
-  margin: 0 auto;  /* centers the container */
-  padding: 0 15px; /* adds some padding to the left and right*/
-}
-
-.jumbotron .container { 
-  max-width: 100%; /* allows the jumbotron to adjust on smaller widths */
-  background-color: #D1A59E;
-}
-
-.jumbotron h1 { 
-  text-align: center; /* centers the heading */
-  color: white;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  text-transform: uppercase;
-}
-* {
-    margin: 0;
-    padding: 0;
-}
-
-h1, h3{
-  text-transform: uppercase;
-  font-weight: normal;
-  font-family: 'Raleway', sans-serif;
-}
-
-.tabs{
-    width: 600px;
-    display: block;
-    margin: 40px auto;
-    position: relative;
-}
-
-.tabs .tab{
-    float: left;
-    display: block;
-}
-
-.tabs .tab>input[type="radio"] {
-    position: absolute;
-    top: -9999px;
-    left: -9999px;
-}
-
-.tabs .tab>label {
-    display: block;
-    padding: 6px 21px;
-    font-size: 12px;
-    text-transform: uppercase;
-    cursor: pointer;
-    position: relative;
-    color: #FFF;
-    background: #F7DCD4;
-  font-family: 'Raleway', sans-serif;
-}
-
-.tabs .content {
-    z-index: 0;/* or display: none; */
-    overflow: hidden;
-    width: 600px;
-    padding: 25px;
-    position: absolute;
-    top: 27px;
-    left: 0;
-    background: #E2CAC3;
-    color: white;
-    font-family: 'Montserrat', sans-serif;
-    opacity:0;
-    transition: opacity 400ms ease-out;
-}
-
-.tabs>.tab>[id^="tab"]:checked + label {
-    top: 0;
-    background: #E2CAC3;
-    color: white;
-}
-
-.tabs>.tab>[id^="tab"]:checked ~ [id^="tab-content"] {
-    z-index: 1;/* or display: block; */
-   
-    opacity: 1;
-    transition: opacity 400ms ease-out;
-}
-@media (max-width: 768px) {
-  .nav > .nav-btn {
-    display: inline-block;
-    position: absolute;
-    right: 0px;
-    top: 0px;
-  }
-  .nav > .nav-btn > label {
-    display: inline-block;
-    width: 50px;
-    height: 50px;
-    padding: 13px;
-  }
-  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
-    background-color: #FFF2E0;
-  }
-  .nav > .nav-btn > label > span {
-    display: block;
-    width: 25px;
-    height: 10px;
-    border-top: 2px solid #BC8C67;
-  }
-  .nav > .nav-links {
-    position: absolute;
-    display: block;
-    width: 100%;
-    background-color: white;
-    height: 0px;
-    transition: all 0.3s ease-in;
-    overflow-y: hidden;
-    top: 50px;
-    left: 0px;
-  }
-  .nav > .nav-links > a {
-    display: block;
-    width: 100%;
-  }
-  .nav > #nav-check:not(:checked) ~ .nav-links {
-    height: 0px;
-  }
-  .nav > #nav-check:checked ~ .nav-links {
-    height: calc(100vh - 50px);
-    overflow-y: auto;
-  }
-}
+  <!--End Profile-->
+</body>
+</html>
